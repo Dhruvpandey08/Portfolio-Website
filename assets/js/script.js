@@ -37,6 +37,7 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
+    /*
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
@@ -52,6 +53,7 @@ $(document).ready(function () {
             });
         event.preventDefault();
     });
+    */
     // <!-- emailjs to mail contact form data -->
 
 });
@@ -61,10 +63,6 @@ document.addEventListener('visibilitychange',
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Dhruv Pandey";
             $("#favicon").attr("href", "assets/images/favicon.png");
-        }
-        else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
 
@@ -107,10 +105,10 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 4).filter(project => project.category != "android").forEach(project => {
+    projects.slice(0, 3).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/projects/${project.image}.jpg" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
