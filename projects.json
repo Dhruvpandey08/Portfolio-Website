@@ -1,7 +1,7 @@
 [
   {
     "name": "Retail-Revolutionizer",
-    "desc": "Retail Revolutionizer is a web application designed to address the challenges faced by shopkeepers in managing product quantities in their shops.",
+    "desc": "Retail Revolutionizer is a web application designed to address the challenges faced by shopkeepers in managing products in their shops.",
     "image": "retailrev",
     "links": {
       "view": "https://retail-revolutionizer.vercel.app/",
