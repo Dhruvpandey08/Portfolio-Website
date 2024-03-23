@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Retail-Revolutionizer",
+    "desc": "Retail Revolutionizer is a web application designed to address the challenges faced by shopkeepers in managing product quantities in their shops.",
+    "image": "retailrev",
+    "links": {
+      "view": "https://retail-revolutionizer.vercel.app/",
+      "code": "https://github.com/Dhruvpandey08/Retail_Revolutionizer"
+    }
+  },
+  {
+    "name": "Netflix Frontend Clone",
+    "desc": "A popular video stremaing platform's frontend clone based as a static front page of the platform.",
+    "image": "netflix",
+    "links": {
+      "view": "https://netflixclonefed.vercel.app/",
+      "code": "https://github.com/Dhruvpandey08/Netflix-Clone"
+    }
+  },
+  {
+    "name": "TO-DO Web App",
+    "desc": "A web app which allows user to add and delete their sheduled daily routine tasks and maintain a healthy lifestyle with growth.",
+    "image": "todo",
+    "links": {
+      "view": "https://dhruvpandey08.github.io/To-Do-APP/",
+      "code": "https://github.com/Dhruvpandey08/To-Do-APP"
+    }
+  }
+] 
